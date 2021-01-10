@@ -1,0 +1,10 @@
+name: Ubuntu (ngrok)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Instance:
+    runs-on: windows-latest
+    steps:
+    - uses: mxschmitt/action-tmate@v3.1
